@@ -1,0 +1,145 @@
+
+
+:root{
+    --primary-color: #ffce14;
+    --secondary-color: #0f2453;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+}
+nav{
+    background-color: var(--secondary-color);
+    height: 80px;
+    width: 100%;
+    
+}
+.my-logo-img{
+    float: left;
+}
+.mylogo{
+        color: var(--primary-color);
+        font-size: 30px;
+        padding: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        float: left;
+}
+.mylogo span{
+    font-size: 15px;
+    display: block;
+    line-height: 25px;
+    position: relative;
+    
+}
+.mylogo:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+nav .mymenu{
+    float: right;
+    margin-right: 20px;
+
+}
+nav .mymenu li{
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 10px;
+}
+nav .mymenu li .mymenu-link{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;  
+}
+
+/*for menu itemsk*/
+nav .mymenu .mymenu-item .mymenu-link:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 550;
+}
+nav .mymenu .mymenu-item .mymenu-link:hover:before{
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--primary-color);
+    border-width: 3px 0 0 3px;
+    box-sizing: border-box; 
+}
+nav .mymenu .mymenu-item .mymenu-link:hover:after{
+    bottom: 0;
+    right: 0;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--primary-color);
+    border-width: 0 3px 3px 0;
+    box-sizing: border-box;
+}
+/* for login button*/
+nav .mymenu li .mymenu-button{
+    border: 2px solid var(--primary-color);
+    padding: 0.3em 1.8em;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    color: var(--primary-color);
+    border-radius: 5em;
+    font-weight: 550;
+}
+nav .mymenu li .mymenu-button:hover{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+/*----------------------------------------*/
+/*for current item*/
+nav .mymenu .mymenu-current .mymenu-link{
+    color: var(--primary-color);
+    font-weight: 550;
+}
+nav .mymenu .mymenu-current .mymenu-link:hover{
+    text-decoration: none;
+}
+nav .mymenu .mymenu-current .mymenu-link::before{
+    
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--primary-color);
+    border-width: 3px 0 0 3px;
+    box-sizing: border-box;
+}
+nav .mymenu .mymenu-current .mymenu-link::after{
+    bottom: 0;
+    right: 0;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--primary-color);
+    border-width: 0 3px 3px 0;
+    box-sizing: border-box;
+}
+/*------------------------------------------------*/

@@ -1,0 +1,256 @@
+:root{
+    --primary-color: #ffce14;
+    --secondary-color: #0f2453;
+    --third-color: #365085;
+    --white-color: #ffffff;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.topmenu{
+    position: relative;
+}
+.topmenu nav{
+    background-color: var(--third-color);
+    height: 30px;
+    width: 100%;    
+}
+.topmenu nav ul{
+    float: right;
+}
+.topmenu nav ul .topitem{
+    display: inline-block;
+    padding-right: 50px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.topmenu nav ul .topitem{
+    display: inline-block;
+    padding-right: 50px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.topmenu nav ul .topitem i{
+    padding-left: 7px;
+}
+.topmenu nav ul ul{
+    display: none;
+}
+.topmenu nav ul .topitem:hover ul{
+    display: block;
+    position: absolute;
+    margin-left: -100px;
+    background-color: var(--third-color);  
+    z-index: 996; 
+}
+.topmenu nav ul .topitem:hover ul li {
+    border-bottom: 1px solid var(--white-color);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.topmenu nav ul .topitem:hover ul li a{
+    font-weight: lighter;
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1.7px;
+    display: inline-block;
+    
+    margin-right: 10px;
+    line-height: 1.6em;
+}
+.topmenu nav ul .topitem:hover ul li a i{
+    padding-right: 10px;
+    color: var(--primary-color);
+}
+.topmenu nav ul .topitem:hover ul li a:hover{
+  color: var(--primary-color); 
+}
+/*  for main menu  */
+
+.mainmenu{
+    position: relative;
+}
+.mainmenu nav{
+    background-color: var(--secondary-color);
+    height: 80px;
+    width: 100%;
+    
+}
+.my-logo-img{
+    float: left;
+}
+.mylogo{
+        color: var(--primary-color);
+        font-size: 30px;
+        padding: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        float: left;
+}
+.mylogo span{
+    font-size: 15px;
+    display: block;
+    line-height: 25px;
+    position: relative;
+    
+}
+.mylogo:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.mainmenu nav .mymenu{
+    float: right;
+    margin-right: 20px;
+
+}
+.mainmenu nav .mymenu li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.mainmenu nav .mymenu li .mymenu-link{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;  
+}
+/* for drop down */
+.mainmenu nav .mymenu li ul{
+    display: none;
+}
+.mainmenu nav .mymenu .drop:hover .mydropdown{
+    display: block;
+    position: absolute;
+    margin-left: 50px;
+    background-color: var(--third-color);  
+    z-index: 996; 
+}
+.mainmenu nav .mymenu .drop:hover .mydropdown .dropitem{
+    display: block;
+    line-height: 2.6em;
+    border-bottom: 2px solid var(--white-color);
+}
+.mainmenu nav .mymenu .drop:hover .mydropdown .lastitem{
+    border: none;
+}
+/*---------------------------------------------*/
+/* for navigation hover */
+.mainmenu nav .mymenu .mymenu-item .mymenu-link:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 550;
+}
+.mainmenu nav .mymenu .mymenu-item .mymenu-link:hover:before{
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--primary-color);
+    border-width: 3px 0 0 3px;
+    box-sizing: border-box; 
+}
+.mainmenu nav .mymenu .mymenu-item .mymenu-link:hover:after{
+    bottom: 0;
+    right: 0;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--primary-color);
+    border-width: 0 3px 3px 0;
+    box-sizing: border-box;
+}
+
+/* for login button*/
+.mainmenu nav .mymenu li .logout-link .mymenu-button{
+    border: 2px solid var(--primary-color);
+    padding: 5px 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    color: var(--primary-color);
+    border-radius: 5em;
+    font-weight: 550;
+    background-color: transparent;
+}
+.mainmenu nav .mymenu li .logout-link .mymenu-button:hover{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+.mainmenu nav .mymenu li .logout-link .mymenu-button:hover i{
+    color: var(--secondary-color);
+}
+/*----------------------------------------*/
+/* for current item */
+.mainmenu nav .mymenu .mymenu-current .mymenu-link{
+    color: var(--primary-color);
+    font-weight: 550;
+}
+/* for current item drop downs */
+.mainmenu nav .mymenu .mymenu-current .mydropdown .dropitem .mymenu-link{
+    color: var(--white-color);
+} 
+.mainmenu nav .mymenu .mymenu-current .mydropdown .dropitem .mymenu-link:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 550;
+}
+.mainmenu nav .mymenu .mymenu-current .mydropdown .dropitem .mymenu-link::after,
+.mainmenu nav .mymenu .mymenu-current .mydropdown .dropitem .mymenu-link::before,
+.mainmenu nav .mymenu .mymenu-item .mydropdown .dropitem .mymenu-link::after,
+.mainmenu nav .mymenu .mymenu-item .mydropdown .dropitem .mymenu-link::before{
+    display: none;
+}
+.mainmenu nav .mymenu .mymenu-current .mydropdown .current .mymenu-link{
+    color: var(--primary-color);
+}
+/* ---------------------------------------------------*/
+.mainmenu nav .mymenu .mymenu-current .mymenu-link:hover{
+    text-decoration: none;
+}
+.mainmenu nav .mymenu .mymenu-current .mymenu-link::before{
+    
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--primary-color);
+    border-width: 3px 0 0 3px;
+    box-sizing: border-box;
+}
+.mainmenu nav .mymenu .mymenu-current .mymenu-link::after{
+    bottom: 0;
+    right: 0;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--primary-color);
+    border-width: 0 3px 3px 0;
+    box-sizing: border-box;
+}
+/*------------------------------------------------*/
+header li a i{
+    padding-right: 5px;
+    color: var(--primary-color);
+}

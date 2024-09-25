@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>lucy hotel</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./mystyle.scss">
+    <link rel="stylesheet" href="./aboutstyle.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./image/lucy-hotel_logo3.png" alt="logo" class="my-logo-img">
+                <a href="index.php" class="mylogo">lucy hotel<span>cradle of lexury</span></a>
+                
+                    <ul class="mymenu">
+                        <li class="mymenu-item"><a href="index.php" class="mymenu-link"><i class="fa-sharp fa-solid fa-house-chimney"></i>Home</a></li>
+                            <li class="mymenu-current"><a href="about.html" class="mymenu-link"><i class="fa-solid fa-users"></i>About</a></li>
+                            <li class="mymenu-item"><a href="services.html" class="mymenu-link"><i class="fa-solid fa-bell-concierge"></i>Services</a></li>
+                            <li class="mymenu-item"><a href="rooms.html" class="mymenu-link"><i class="fa-solid fa-bed"></i>Room</a></li>
+                            <li class="mymenu-item"><a href="gallery.html" class="mymenu-link"><i class="fa-solid fa-image"></i>Gallery</a></li>
+                            <li class="mymenu-item"><a href="contact.html" class="mymenu-link"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+                            <li class="mymenu-item"><a href="loginform.php" class="mymenu-button"><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+                    </ul> 
+        </nav>
+    </header>
+    <section id="about_body">
+        <h2>About our lucy hotel</h2>
+        <div class="row" class="about">
+                
+                <div class="col-xs-5 about_image" >
+                    <!-- <img src="http://localhost/lucy hotel/image/14.jpg" alt="about as picture"> -->
+                </div>
+                <div class="col-xs-6 about_hotel" >
+                    
+                    <h4>lucy hotel <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></h4>
+                    <p><strong>Lucy Hotel</strong> is one of the biggest 4-star hotel in the heart of Dessie, Which 
+                        is established in 2013 E.C by Mr. Eshetu Hassen.Our hotel offers many services for you
+                        such as bed rooms (luxurious presidential suite rooms, Deluxe suites room and standard 
+                        comfortable rooms), 24/7 open restaurants, top floor VIP lounge, reception bar, basement 
+                        nightclub, spa and fitness centre, shared swimming pool, green outdoor entertainment 
+                        multi-functional meeting & event halls, ATM services, Free internet access, 
+                        Free airport shuttle, and safe parking services.</p>
+                        <button type="button" class="read_more" onclick="document.getElementById('id01').style.display='block'">Read More</button>
+                </div>
+            </div>
+            
+    </section>
+    <div id="id01" class="modal">
+        <div class="modal-content">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="./image/lucy-hotel_logo3.svg" alt=" lucy hotel logo">
+                <h4>lucy hotel <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></h4>
+            </div>
+    
+            <div class="notecontainer">
+                <p><strong>Lucy Hotel</strong> is one of the biggest 4-star hotel in the heart of Dessie, which is a city and a 
+                    zone in north-central Ethiopia. Located in the Amhara Region, it sits at a latitude and 
+                    longitude of, with an elevation between 2,470 and 2,550 metres above sea. Dessie is 400 km 
+                    to the north of the capital Addis Ababa. It has a population of more than 200,000 people in 
+                    over 30 districts.
+                    <strong>Lucy Hotel</strong> is established in 2013 E.C by Mr. Eshetu Hassen. It consists of 130 employees 
+                    and this hotel offers many services for customer such as bed rooms (5 luxurious Residential 
+                    suite rooms, 15 Deluxe suites and 45 standard comfortable rooms), 24/7 open 3 restaurants, 
+                    top floor VIP lounge, reception bar, basement nightclub, spa and fitness centre, shared 
+                    swimming pool, green outdoor entertainment multi-functional meeting & event halls, ATM 
+                    services, Free internet access, Free airport shuttle, and safe parking services</p>
+            </div>
+        </div>
+    </div>
+    <section id="team">
+        
+            <h3>Our Team</h3>
+        <div class="teamwork">
+            <p class="worktogether">" teamwork is the ability to work together toward a common vision.<br>
+            the ability to direct individual accomplishment toward organizational objectives.<br>
+            it is the fule that allows common people to attain uncommon results. "</p>
+        
+        <div class="row ourteam">
+            <div class="col-sm-3 team">
+                <img src="./image/team-1.png" alt="pic" class="team_img">
+                <p>mr. eshetu hassen</p>
+                <h4>owner</h4>
+            </div>
+            <div class="col-sm-3 team">
+                <img src="./image/team-3.png" alt="pic" class="team_img">
+                <p>mr. kidus</p>
+                <h4>manager</h4>
+            </div>
+            <div class="col-sm-3 team">
+                <img src="./image/team-2.png" alt="pic" class="team_img">
+                <p>mr. somebody</p>
+                <h4>system Adminstrater</h4>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="footer">
+                <div>&copy; copyright <strong>Lucy hotel.</strong> All right reserved.</div>
+                <div>Designed by <a href="#"> IT Students</a>, Wollo universty, Ethiopia.</div>
+            </div>
+</body>
+</html>

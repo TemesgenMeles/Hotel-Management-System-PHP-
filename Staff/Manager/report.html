@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Lucy Hotel </title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="navigation.css">
+        <link rel="stylesheet" href="checkinview.css">
+    </head>
+    <body>
+    <header class="topmenu">
+        <nav>
+            <ul>
+                <li class="topitem"><i class="fa-solid fa-user"></i><i class="fa-solid fa-caret-down"></i>
+                    <ul class="topdropdown">
+                        <li class="topdownitem"><a href="viewAccount.php"><i class="fa-solid fa-eye"></i>View Account</a></li>
+                        <li class="topdownitem"><a href="changePassword.php"><i class="fa-solid fa-key"></i>Change password</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <header class="mainmenu">
+        <nav>
+            <img src="../../image/lucy-hotel_logo3.svg" alt="logo" class="my-logo-img">
+            <a href="home.php" class="mylogo">lucy hotel<span>cradle of lexury</span></a>
+                <ul class="mymenu">
+                    <li class="mymenu-item"><a href="home.php" class="mymenu-link"><i class="fa-sharp fa-solid fa-house-chimney"></i>Home</a></li>
+                    
+                    <li class="mymenu-item drop"><a href="userEmployee.php" class="mymenu-link"><i class="fa-solid fa-users"></i>User <i class="fa-solid fa-caret-down" id="last"></i></a>
+                        <ul class="mydropdown">
+                            <li class="dropitem"><a href="userEmployee.php" class="mymenu-link"><i class="fa-solid fa-caret-right"></i>Employee</a></li>
+                            <li class="dropitem lastitem"><a href="userCustomer.php" class="mymenu-link"><i class="fa-solid fa-caret-right"></i>Customer</a></li>
+                        </ul>
+                    </li>
+                    <li class="mymenu-current"><a href="report.html" class="mymenu-link"><i class="fa-sharp fa-solid fa-list-check"></i>Report</a></li>
+                    <li class="mymenu-item"><a href="newComment.php" class="mymenu-link"><i class="fa-solid fa-comment"></i>Message</a></li>
+                    <li class="logout_button"><a href="logout.php" class="logout-link"><button type="button" class="mymenu-button"><i class="fa-sharp fa-solid fa-right-from-bracket"></i>Logout</button></a></li>
+                </ul>
+        </nav>
+    </header>
+    <section class="view">
+        <div>
+            <div class="row">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <center><h4>Report</h4></center>
+                    </div>
+                    <form class="form-horizontal">
+                        <div class="panel-body"> 
+                            <div class="form-group">
+                                <label for="Type" class="control-label col-sm-3">Report Type:</label>
+                                <div class="col-md-3">
+                                    <select name="type" class="form-control">
+                                        <option value="dayly">Day Report</option>
+                                        <option value="weekly">Week Report</option>
+                                        <option value="monthly">Month Report</option>
+                                        <option value="yearly">Year Report</option>
+                                    </select>
+                                </div>  
+                            </div>
+                            <div class="form-group">
+                                <label for="reportOf" class="control-label col-sm-3">Report Of:</label>
+                                <div class="col-md-3">
+                                    <select name="type" class="form-control">
+                                        <option value="report1">report 1</option>
+                                        <option value="report2">Report 2</option>
+                                        <option value="report3">Report 3</option>
+                                        <option value="report4">Report 4</option>
+                                    </select>
+                                </div>  
+                            </div>
+          <!-- button -->   <div class="col-sm-6"><span class="col-sm-5"></span><center><button type="submit" class="btn btn-primary col-sm-3">Generate</button></center></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer" style="margin-top: 300px;">
+        <div>&copy; copyright <strong>Lucy hotel.</strong> All right reserved.</div>
+        <div>Designed by <a href="#"> IT Students</a>, Wollo universty, Ethiopia.</div>
+    </div> 
+</body>  
+    </body>
+</html>

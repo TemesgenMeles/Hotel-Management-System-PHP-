@@ -1,0 +1,145 @@
+:root{
+    --primary-color: #ffce14;
+    --secondary-color: #0f2453;
+    --white-color: white;
+    --black-color: black;
+}
+
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+#body{
+    height: 100vh;
+    padding: 0px 30px;
+    padding-top: 80px;
+}
+#body .row .side{
+    border: 2px solid var(--primary-color);
+    margin-right: 30px;
+    padding: 40px 40px;
+}
+#body .row .side ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    line-height: 1.6em;
+}
+#body .row .side ul li a:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+#body .row .side ul li a i{
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+#information{
+    margin: 0px 0px;
+    background-color: #040919;
+    color: var(--white-color);
+    
+}
+#information .address h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    margin-left: 80px;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+#information .address p{
+    margin-bottom: 30px;
+    margin-left: 70px;
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    line-height: 2em;
+    color: var(--link-color);
+}
+#information .address p a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+#information .address p a:hover{
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: bold;
+}
+#information .mylinks h4{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--primary-color);
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+#information .mylinks ul li a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    line-height: 2em;
+    margin-left: 70px;
+    display: block;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+#information .mylinks ul li a i{
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+#information .mylinks ul li a:hover{
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: bold;
+}
+#information .mywebs ul{
+    margin-top: 65px;
+    margin-left: 60px;
+}
+#information .mywebs ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: var(--white-color);
+    letter-spacing: 1.1px;
+    line-height: 2em;
+    border-bottom: 1px solid var(--primary-color);
+}
+#information .mywebs ul li a i{
+    color: var(--primary-color);
+    margin-right: 5px;
+}
+#information .mywebs ul li a:hover{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.footer{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    color: var(--white-color);
+    background-color: #2f3138;
+    text-align: center;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.footer a:hover{
+    color: var(--primary-color);
+    font-size: 17px;
+    font-weight: bold;
+}

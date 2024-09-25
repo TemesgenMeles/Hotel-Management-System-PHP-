@@ -1,0 +1,138 @@
+:root{
+    --primary-color: #ffce14;
+    --secondary-color: #0f2453;
+    --third-color: #365085;
+    --white-color: #ffffff;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/*   for resurant header */
+#header_resturant{
+    position: sticky;
+    top: 0;
+    z-index: 900;
+}
+#header_resturant nav{
+    background-color: var(--third-color);
+    height: 60px;
+    width: 100%;   
+}
+#header_resturant nav h1 {
+    
+    padding: 0px 10px;
+    margin: 15px 0px;
+    float: left;
+    padding-left: 20px;
+}
+#header_resturant nav h1 .resturantlogo{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+    padding-bottom: 5px;
+}
+#header_resturant nav h1 .resturantlogo:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+#header_resturant nav h1 a::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    border-width: 0px 0px 3px 0px;
+    border: 2px solid var(--primary-color);
+    width: 80px;
+}
+#header_resturant nav ul{
+    float: right;
+}
+#header_resturant nav ul li{
+    display: inline-block;
+    margin: 15px 30px;
+}
+#header_resturant nav ul li a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 20px;
+}
+#header_resturant nav ul .rest_curent_item a{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+#header_resturant nav ul li a:hover{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+#header_resturant nav ul li a button{
+    text-decoration: none;
+    padding: 7px 25px;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 5em;
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: bold;
+}
+#header_resturant nav ul li a button:hover{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+/*------------------------------------------------------------*/
+.row{
+    height: 100vh;
+    padding: 110px 30px;
+}
+.row h4{
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+}
+button{
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+    padding: 10px 30px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+button:hover{
+    background-color: var(--primary-color);
+}
+.footer{
+    position: relative;
+    margin-top: -23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    color: var(--white-color);
+    background-color: #2f3138;
+    text-align: center;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.footer a:hover{
+    color: var(--primary-color);
+    font-size: 17px;
+    font-weight: bold;
+}

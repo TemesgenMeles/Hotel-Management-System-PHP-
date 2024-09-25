@@ -1,0 +1,117 @@
+:root{
+    --primary-color: #ffce14;
+    --secondary-color: #0f2453;
+    --white-color: white;
+    --black-color: black;
+    --blue-color: rgb(0, 119, 255);
+    --green-color: rgb(2, 180, 11);
+    --red-color: rgba(255, 0, 0, 0.849);
+}
+
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.mycontainer{
+    height: 80vh;
+    padding: 0px 40px;
+}
+.mycontainer .info{
+    padding: 10px 40px;
+    color: var(--black-color);
+    font-size: 15px;
+    font-weight: bold;
+}
+.mycontainer .row{
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.mycontainer .row .col-md-4 ,
+.mycontainer .row .col-md-3 {
+    background-color: rgb(236, 235, 235);
+    box-shadow: 0px 3px 9px var(--black-color);
+}
+.mycontainer .row .col-md-4 .panel,
+.mycontainer .row .col-md-3 .panel{
+    background-color: transparent;
+    border: none;
+}
+.mycontainer .row .col-md-4 .panel-heading,
+.mycontainer .row .col-md-3 .panel-heading{
+    background-color: transparent;
+    border-bottom: none;
+}
+.mycontainer .row .col-md-4 .panel-body h2,
+.mycontainer .row .col-md-3 .panel-body h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    margin-top: 0px;
+    color: var(--secondary-color);
+    text-transform: capitalize;
+}
+.mycontainer .row .col-md-4 .panel-body p,
+.mycontainer .row .col-md-3 .panel-body p{
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    color: var(--secondary-color);
+    text-transform: capitalize;
+}
+.mycontainer .row .col-md-4 .panel-body p .right,
+.mycontainer .row .col-md-3 .panel-body p .right{
+    float: right;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.mycontainer .row .col-md-4 .panel-footer,
+.mycontainer .row .col-md-3 .panel-footer{
+    background-color: transparent;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+}
+.mycontainer .row .col-md-4 .panel-footer .button,
+.mycontainer .row .col-md-3 .panel-footer .button{
+    background-color: transparent;
+    color: var(--secondary-color);
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    padding: 5px 20px;
+    border: 2px solid var(--secondary-color);
+}
+.mycontainer .row .col-md-4 .panel-footer .button:hover,
+.mycontainer .row .col-md-3 .panel-footer .button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.mycontainer .row .col-md-4 .panel-footer .button i,
+.mycontainer .row .col-md-3 .panel-footer .button i{
+    padding-right: 5px;
+}
+.footer{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    color: var(--white-color);
+    background-color: #2f3138;
+    text-align: center;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.footer a:hover{
+    color: var(--primary-color);
+    font-size: 17px;
+    font-weight: bold;
+}

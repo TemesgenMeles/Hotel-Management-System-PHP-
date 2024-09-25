@@ -1,0 +1,77 @@
+:root{
+    --primary-color: #ffce14;
+    --secondary-color: #0f2453;
+    --third-color: #365085;
+    --white-color: #ffffff;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+#mybody{
+    height: 80vh;
+    padding: 10px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6)), url('http://localhost/lucy hotel/image/4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user h4{
+    color: var(--primary-color);
+}
+.user p{
+    color: var(--primary-color);
+}
+.logo-body{
+    padding: 7em 0;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+}
+.logo-body img{
+    width: 7%;
+}
+.logo-body h1{
+    margin: 0;
+    font-size: 2.9em;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--primary-color);
+    display: block;
+}
+.logo-body h4{
+    font-size: 1.6em;
+    letter-spacing: 8px;
+    margin: 10px 0 0;
+    color: var(--primary-color);
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+.footer{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    color: var(--white-color);
+    background-color: #2f3138;
+    text-align: center;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.footer a:hover{
+    color: var(--primary-color);
+    font-size: 17px;
+    font-weight: bold;
+}
