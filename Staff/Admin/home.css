@@ -16,7 +16,7 @@
 #mybody{
     height: 80vh;
     padding: 10px 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6)), url('http://localhost/lucy hotel/image/4.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6)), url('../../image/4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

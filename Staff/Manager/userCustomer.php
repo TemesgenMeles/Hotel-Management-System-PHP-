@@ -44,8 +44,8 @@ $numrow_registered = mysqli_num_rows($result_registered);
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title>Lucy Hotel </title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../fontawesome/css/all.min.css">
         <link rel="stylesheet" href="navigation.css">
         <link rel="stylesheet" href="checkinview.css">
     </head>
