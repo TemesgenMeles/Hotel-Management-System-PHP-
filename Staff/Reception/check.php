@@ -19,7 +19,7 @@ if (isset($_POST['check'])) {
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title>Lucy Hotel </title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
     </head>
     <body>
         <div><!-- Continer -->
