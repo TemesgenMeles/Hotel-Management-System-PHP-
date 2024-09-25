@@ -68,7 +68,7 @@ if($sex == "Male"){
                     <p>Administrator of Lucy Hotel</p>
                 </div>
                 <div class="logo-body">
-                    <img src="../image/lucy-hotel_logo3.svg" alt=" lucy hotel logo">
+                    <img src="../../image/lucy-hotel_logo3.svg" alt=" lucy hotel logo">
                     <h1>Lucy Hotel</h1>
                     <h4>Cradle of Lexury</h4>
                 </div>
