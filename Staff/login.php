@@ -19,20 +19,20 @@ if(isset($_POST['login'])){
         if($row['status'] == 0){
             $_SESSION['ID'] = $row['emp_ID'];
             if($utype == "Admin"){
-                header("Location: ../../Staff/Admin/home.php");
+                header("Location: ../Staff/Admin/home.php");
             }
             elseif($utype == "Manager"){
-                header("Location: ../../Staff/Manager/home.php");
+                header("Location: ../Staff/Manager/home.php");
             }
             elseif($utype == "Reception"){
-                header("Location: ../../Staff/Reception/home.php");
+                header("Location: ../Staff/Reception/home.php");
             }
             else{
-                header("Location: ../../Staff/Chefs/home.php");
+                header("Location: ../Staff/Chefs/home.php");
             }
         }else{
             $_SESSION['login_msg'] = "<script>alert('you are blocked from using this system. Please contact the adminstrator');</script>";
-            header("Location: ../../Staff/index.php");
+            header("Location: ../Staff/index.php");
         }
         
     }
