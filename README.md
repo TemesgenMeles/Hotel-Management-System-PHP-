@@ -25,6 +25,14 @@ This PHP-based hotel management system, developed as a first project, provides a
 - Developed using an Agile methodology, specifically Scrum
 - Utilized XAMPP for local development
 
+## File structure
+
+
+
+## Usage
+
+
+
 ## Challenges and Solutions:
 
 - **Time constraints**: Overcame challenges due to limited time by leveraging online resources and focusing on core functionalities.
