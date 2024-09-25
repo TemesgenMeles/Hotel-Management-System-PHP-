@@ -11,15 +11,15 @@ unset($_SESSION['login_msg']);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lucy hotel</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../fontawesome/css/fontawesome.css">
 </head>
 <body>
     <div class="mycontainer">
         <div class="row">
             <div class="panel panel-warning col-md-6">
         <div class="panel-heading">
-            <img src="../../image/lucy-hotel_logo3.svg" alt=" lucy hotel logo">
+            <img src="../image/lucy-hotel_logo3.svg" alt=" lucy hotel logo">
             <h4>Staff login Page</h4>
         </div>
         <div class="panel-body">
@@ -81,7 +81,7 @@ unset($_SESSION['login_msg']);
 }
 .mycontainer{
     height: 90vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../../image/hotel-bg.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../image/hotel-bg.jpg") center/cover no-repeat;
 }
 .mycontainer .row{
     padding: 0px 0px;
